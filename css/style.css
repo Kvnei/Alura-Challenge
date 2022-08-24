@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-principal {
+    background-image: url(Logos/Muñeco.png);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center; 
+}
+
+.tarjeta{
+    width: 700px;
+    height: 350px;
+    margin: 10px;
+    background-color: rgb(46, 192, 237);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.error {
+    color: #FFF;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0 0.3rem;
+}
+
+button {
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+
+    color: #FFF;
+    background:   #041cb4;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 1em;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.contenedor-botones{
+    display: flex;
+}
+
+.mensaje-contenedor {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    all: initial;
+    font: inherit;
+    background: transparent;
+    color: #FFF;
+    padding: 1em 0.5em;
+}
